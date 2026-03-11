@@ -1,22 +1,37 @@
-# Contributing to OSINTForge
+# Contributing to OSINTForge 🤝
 
-Thank you for your interest in contributing to OSINTForge! We welcome contributions from developers, researchers, and security professionals.
+Thank you for your interest in contributing to OSINTForge! We welcome contributions from developers, researchers, and security professionals worldwide.
 
-## Ways to Contribute
+> **We believe in collaborative development.** Whether you're fixing a typo, reporting a bug, or adding a major feature, your contribution matters!
 
-1. **Report Bugs** - Found an issue? Let us know!
-2. **Suggest Features** - Have an idea? We'd love to hear it
-3. **Improve Documentation** - Help clarify or improve docs
-4. **Add Modules** - Create new OSINT reconnaissance modules
-5. **Fix Issues** - Submit pull requests for open issues
-6. **Improve Code Quality** - Refactor, optimize, or improve existing code
+---
 
-## Code of Conduct
+## 🌟 Ways to Contribute
 
-- Be respectful and professional
-- No harassment, discrimination, or hate speech
-- Use constructive feedback
-- Report violations to maintainers
+| Contribution Type | How to Help | Impact |
+|---|---|---|
+| **🐛 Report Bugs** | Found an issue? Open a GitHub issue | Critical for improvement |
+| **💡 Suggest Features** | Have an idea? Share in discussions | Shapes the roadmap |
+| **📑 Improve Docs** | Clarify or enhance documentation | Makes OSINTForge accessible |
+| **🔼 Add Modules** | Create new reconnaissance tools | Expands capabilities |
+| **🔧 Fix Issues** | Submit pull requests for open issues | Increases stability |
+| **🔢 Improve Code** | Refactor, optimize, improve quality | Enhances performance |
+
+## 📄 Code of Conduct
+
+**We're committed to a welcoming and respectful community.**
+
+✅ **Expected Behavior:**
+- Be respectful and professional in all interactions
+- Provide constructive feedback
+- Welcome diverse perspectives
+- Acknowledge and respect others' contributions
+
+❌ **Unacceptable Behavior:**
+- Harassment, bullying, or intimidation
+- Discrimination of any kind
+- Offensive language or personal attacks
+- Report violations to [admin@osintintelligence.xyz](mailto:admin@osintintelligence.xyz) | See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details
 
 ## Getting Started
 
@@ -289,11 +304,15 @@ Any new features must include:
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
 
-## Questions?
+## ❔ Questions?
 
-- Check existing issues for answers
-- Review documentation
-- Open a new issue with your question
+| Need Help With | Contact Method | Expected Response |
+|---|---|---|
+| **General Questions** | [admin@osintintelligence.xyz](mailto:admin@osintintelligence.xyz) | 24-48 hours |
+| **Bug Reports** | [GitHub Issues](https://github.com/xdrew87/osintforge/issues) | 24-72 hours |
+| **Feature Ideas** | [GitHub Discussions](https://github.com/xdrew87/osintforge/discussions) | Community feedback |
+| **Documentation** | Check [README.md](README.md) & [QUICK_START.md](QUICK_START.md) | Instant |
+| **Suggestions** | Open a discussion or email us | Welcome! |
 
 ## Recognition
 
