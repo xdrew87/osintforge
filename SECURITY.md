@@ -39,7 +39,7 @@ If you discover a security vulnerability in OSINTForge, please report it respons
 - ❌ Test against non-owned systems
 
 ### Do
-- ✅ Email security details to: [maintainer-email@example.com]
+- ✅ Email security details to: [admin@osintintelligence.xyz]
 - ✅ Include proof of concept (optional but helpful)
 - ✅ Allow reasonable time for response and patching
 - ✅ Include your contact information
@@ -236,7 +236,7 @@ Before using OSINTForge:
 ## Support & Contact
 
 ### Security Issues
-- Email: [maintainer-email@example.com]
+- Email: [admin@osintintelligence.xyz]
 - Do not open public issues for security vulnerabilities
 
 ### General Questions
@@ -281,3 +281,4 @@ Thank you to the security research community for responsible disclosure practice
 5. Accept full responsibility for your actions
 
 **Remember: With great power comes great responsibility. Use ethically and legally.** 🛡️
+
