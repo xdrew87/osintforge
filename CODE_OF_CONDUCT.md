@@ -58,7 +58,7 @@ If you experience or witness unacceptable behavior:
 
 ### How to Report
 
-1. **Email**: [maintainer-email@example.com] with subject "[CODE OF CONDUCT] Report"
+1. **Email**: [admin@osintintelligence.xyz] with subject "[CODE OF CONDUCT] Report"
 2. **GitHub Issue**: Only if it doesn't involve personal safety concerns
 
 ### What to Include
@@ -174,3 +174,4 @@ With these principles, we can build a welcoming community where everyone feels v
 
 **Last Updated:** 2024-01-XX  
 **Version:** 1.0
+
