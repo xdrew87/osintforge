@@ -92,7 +92,7 @@ Depending on severity, actions may include:
 
 If you believe you were incorrectly sanctioned:
 
-1. Email your appeal to [maintainer-email@example.com]
+1. Email your appeal to [admin@osintintelligence.xyz]
 2. Include why you believe the action was unjust
 3. Provide any additional context or evidence
 4. A separate reviewer will reconsider the action
@@ -170,8 +170,9 @@ With these principles, we can build a welcoming community where everyone feels v
 
 ---
 
-**Questions?** Email [maintainer-email@example.com]
+**Questions?** Email [admin@osintintelligence.xyz]
 
 **Last Updated:** 2024-01-XX  
 **Version:** 1.0
+
 
