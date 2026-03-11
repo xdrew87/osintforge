@@ -1,74 +1,102 @@
-# OSINTForge 🔍
+# 🔍 OSINTForge
 
-**A Professional Multi-Purpose OSINT Intelligence Framework**
+> **A Professional Multi-Purpose OSINT Intelligence Framework**
 
 OSINTForge is a powerful, modular Python CLI tool for Open Source Intelligence (OSINT) gathering. It provides a comprehensive suite of reconnaissance modules designed for cybersecurity professionals, investigators, and researchers.
 
-![Python Version](https://img.shields.io/badge/python-3.7+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Active-brightgreen)
+![Python Version](https://img.shields.io/badge/python-3.7+-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/status-Active-brightgreen?style=flat-square)
+![Code Quality](https://img.shields.io/badge/code%20quality-A+-success?style=flat-square)
+![Modules](https://img.shields.io/badge/modules-13-blue?style=flat-square)
 
-## ✨ Features
+---
 
-- **🎨 Professional Colored CLI Interface** - Rich terminal UI with theme support
-- **🔄 13+ OSINT Modules** - Comprehensive intelligence gathering tools
-- **🎭 4 Built-in Themes** - Customize the visual experience
-- **💾 Search History & Favorites** - Track and save your inquiries
-- **📊 Export Results** - Save findings in JSON or CSV format
-- **⚙️ Settings Management** - Configure timeouts, themes, and API keys
-- **📱 Modular Architecture** - Easy to extend with new modules
-- **🔒 Local Data Storage** - All data stored securely in user home directory
+## ✨ Core Features
 
-## 📦 OSINT Modules
+| Feature | Description |
+|---------|-------------|
+| **🎨 Professional CLI** | Rich terminal UI with colored output and theme support |
+| **🔄 13 OSINT Modules** | Comprehensive intelligence gathering tools covering IP, domain, email, and more |
+| **🎭 4 Built-in Themes** | Customize colors: Cybersecurity, Dark Terminal, Minimalist, Hacker Green |
+| **💾 Smart History** | Auto-save search history and mark favorites for quick access |
+| **📊 Export Tools** | Save findings in JSON or CSV format with timestamped filenames |
+| **⚙️ Settings Manager** | Configure timeouts, themes, API keys, and export preferences |
+| **📱 Modular Design** | Easy-to-extend architecture for adding custom reconnaissance modules |
+| **🔒 Local Storage** | All data stored securely in `~/.osintforge/` with no cloud sync |
 
-### Intelligence Gathering
-- **IP Intelligence Lookup** - Comprehensive IP geolocation and analysis
-- **Domain Intelligence** - WHOIS data and DNS resolution
-- **Username Search** - Cross-platform username reconnaissance
-- **Reverse DNS Lookup** - Hostname resolution
+## 📦 13 OSINT Intelligence Modules
 
-### Advanced Lookups
-- **Email Validation** - Email verification and analysis
-- **DNS Records** - A, AAAA, MX, NS, TXT, CNAME, SOA lookups
-- **Phone Analysis** - Phone number validation and country detection
-- **SSL Certificates** - Certificate inspection and expiry tracking
+### 🎯 Intelligence Gathering & Profiling
+| # | Module | Purpose |
+|---|--------|---------|  
+| 1️⃣ | **IP Intelligence** | Geolocation, ISP info, VPN/Proxy detection |
+| 2️⃣ | **Domain Intelligence** | WHOIS, DNS resolution, registrar info |
+| 3️⃣ | **Username Search** | GitHub, Twitter, Instagram, Reddit profiles |
+| 4️⃣ | **Reverse DNS** | IP to hostname resolution |
 
-### Network & Infrastructure
-- **Website Information** - Header analysis and security checks
-- **Subdomain Enumeration** - Discover subdomains using pattern matching
-- **Port Scanner** - Scan common ports (19 services)
-- **Hash Lookup** - Hash type identification and analysis
+### 🔐 Account & Email Analysis
+| # | Module | Purpose |
+|---|--------|---------|  
+| 5️⃣ | **Email Validation** | Email verification, disposable domain detection |
+| 6️⃣ | **Phone Analysis** | Validation, country detection, format verification |
+| 7️⃣ | **DNS Records** | A, AAAA, MX, NS, TXT, CNAME, SOA lookups |
 
-### Data Analysis
-- **Geolocation** - IP location with coordinates and maps
-- **Search History** - View and manage recent searches
-- **Favorites** - Save frequently used queries
+### 🌐 Network & Infrastructure  
+| # | Module | Purpose |
+|---|--------|---------|  
+| 8️⃣ | **SSL Certificates** | Certificate details, validity, issuer info |
+| 9️⃣ | **Website Information** | Headers, security checks, server detection |
+| 🔟 | **Subdomain Enumeration** | Pattern-based discovery (40+ patterns) |
+| 1️⃣1️⃣ | **Port Scanner** | Scan 19 common service ports |
+
+### 📊 Data Analysis & Utilities
+| # | Module | Purpose |
+|---|--------|---------|  
+| 1️⃣2️⃣ | **Hash Lookup** | Hash type identification and analysis |
+| 1️⃣3️⃣ | **Geolocation** | Multi-layer IP location with coordinates |
+
+---
 
 ## 🚀 Quick Start
 
-### Installation
+### ⚡ Installation (Under 2 minutes)
 
-```bash
-# Clone the repository
+**Windows:**
+```powershell
 git clone https://github.com/xdrew87/osintforge.git
 cd osintforge
-
-# Install dependencies
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
-
-# Run the application
 python main.py
 ```
 
-### Requirements
+**Linux/Mac:**
+```bash
+git clone https://github.com/xdrew87/osintforge.git
+cd osintforge
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
 
-- Python 3.7+
-- Dependencies listed in `requirements.txt`:
-  - `rich` - Colored CLI interface
-  - `requests` - HTTP requests
-  - `dnspython` - DNS operations
-  - `email-validator` - Email validation
-  - `PyYAML` - Configuration handling
+### 📋 System Requirements
+
+| Requirement | Version | Purpose |
+|-------------|---------|----------|
+| **Python** | 3.7+ | Runtime environment |
+| **rich** | Latest | Colored terminal interface |
+| **requests** | Latest | HTTP API requests |
+| **dnspython** | Latest | DNS lookups and records |
+| **email-validator** | Latest | Email format validation |
+| **PyYAML** | Latest | Configuration file handling |
+
+## ScreenShot
+
+<img width="1115" height="837" alt="Screenshot 2026-03-10 212125" src="https://github.com/user-attachments/assets/9ac1abf8-afd3-47e4-8882-c35e734b5ee2" />
+
 
 ## 💻 Usage
 
@@ -397,19 +425,25 @@ Contributions are welcome! Areas for improvement:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
+
 ## 🙏 Acknowledgments
 
-- **Rich Library** - Beautiful terminal rendering
-- **Custom IP API** - Fast geolocation service (suicixde.com)
-- **HackerTarget** - WHOIS lookup service
-- **ip-api.com** - Enhanced geolocation data
-- **Community Contributors** - Your support makes this better
+**Technology Partners:**
+- 🎨 **Rich Library** - Beautiful terminal rendering and UI components
+- 🌍 **suicixde.com API** - Fast, reliable IP geolocation service
+- 🔗 **HackerTarget** - WHOIS and DNS lookup infrastructure
+- 📍 **ip-api.com** - Enhanced geolocation and mapping data
+- 👥 **Open Source Community** - Continuous feedback and support
 
 ## 📧 Contact & Support
 
-- **Issues** - Report bugs via GitHub Issues
-- **Suggestions** - Feature requests welcome
-- **Questions** - Check existing issues first
+| Contact Method | Purpose | Details |
+|---|---|---|
+| **Email** | General inquiries, partnerships | [admin@osintintelligence.xyz](mailto:admin@osintintelligence.xyz) |
+| **GitHub Issues** | Bug reports & feature requests | [Create Issue](https://github.com/xdrew87/osintforge/issues) |
+| **Security** | Vulnerability disclosure | [See SECURITY.md](SECURITY.md) for responsible disclosure |
+| **Discussions** | Q&A, ideas, community | [GitHub Discussions](https://github.com/xdrew87/osintforge/discussions) |
 
 ## 🚀 Roadmap
 
